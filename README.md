@@ -2,15 +2,15 @@
 
 Sure I can explain why I have 40 GB of chest x-rays on my computer...
 
-A repository for the final project of the MAIS 202 machine learning bootcamp. Wrote a CNN that diagnoses chest x-rays, choosing from a couple common disease classes. The x-rays look something like this:
+A repository for the final project of the MAIS 202 machine learning bootcamp. Wrote a CNN that diagnoses chest x-rays, choosing from 14 common disease classes. This was a multi-label, multi-class problem. The x-rays look something like this:
 
-<img src="https://github.com/kushasareen/chest_x-rays/blob/master/00000001_000.png" width="40%">
+<img src="https://github.com/kushasareen/chest_x-rays/blob/master/00000001_000.png" width="30%">
 
 ... and there are about a hundred thousand of them.
 
 Here's a picture of the first iteration of the model:
 
-<img src="https://github.com/kushasareen/chest_x-rays/blob/master/model.png" width="40%">
+<img src="https://github.com/kushasareen/chest_x-rays/blob/master/model.png" width="30%">
 
 My first iteration of the model failed. I built a version of an inception net, a CNN commonly used for medical imaging (I think Google used it for its opthalmology project a couple years ago). It acheived 93% accuracy but terrible F1 and AUC scores. This was because the dataset was unbalanced. This makes sense if you think about the model like a new doctor. . The model simply had no predictive power. Because of the size of the dataset, I also had issues with RAM where I had to resize the images to 150x150 to fit on the 8 GB of RAM on my laptop.
 

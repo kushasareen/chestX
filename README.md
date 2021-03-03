@@ -1,3 +1,5 @@
 # chestX
 
-A repository for the final project of the MAIS 202 machine learning bootcamp. This machine learning algorithm aims to deduce a common pulmonary pathology from chest x-rays and patient characteristics.
+A repository for the final project of the MAIS 202 machine learning bootcamp. This simple version of InceptionNet diagnoses chest X-rays . This multi-class, multi-label problem is both 
+
+[What is this](sample_xray1.png)

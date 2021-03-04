@@ -12,7 +12,7 @@ A repository for the final project of the MAIS 202 machine learning bootcamp. Wr
 
 Here's a picture of the first iteration of the model:
 <center>
-<img src="https://github.com/kushasareen/chest_x-rays/blob/master/model.png" width="60%">
+<img src="https://github.com/kushasareen/chest_x-rays/blob/master/model.png" width="100%">
 </center>
 
 My first iteration of the model failed. I built a version of an inception net, a CNN commonly used for medical imaging (I think Google used it for its opthalmology project a couple years ago). It acheived 93% accuracy but terrible F1 and AUC scores. This was because the dataset was unbalanced. This makes sense if you think about the model like a new doctor. . The model simply had no predictive power. Because of the size of the dataset, I also had issues with RAM where I had to resize the images to 150x150 to fit on the 8 GB of RAM on my laptop.

@@ -10,7 +10,7 @@ A repository for the final project of the MAIS 202 machine learning bootcamp. Wr
 
 ... and there are about a hundred thousand of them.
 
-Here's a picture of the first iteration of the model:
+Here's a picture of the first iteration of the model. It takes as input an image, a bounding box that may be provided and some basic patient characteristics and outputs a probability for each of the 14 disease classes:
 <center>
 <img src="https://github.com/kushasareen/chest_x-rays/blob/master/model.png" width="100%">
 </center>
